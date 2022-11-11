@@ -15,6 +15,7 @@ block content
             .panel-heading 
               h2.panel-title Açılış Saatleri
             .panel-body
+<<<<<<< HEAD
               each saat in mekanDetay.saatler
                 p
                   | #{saat.gunler}:&nbsp;
@@ -22,6 +23,15 @@ block content
                     | Kapalı
                   else
                     | #{saat.acilis}-#{saat.kapanis}
+=======
+            each saat in mekanDetay.saatler
+              p
+                | #{saat.gunler}:&nbsp;
+                if (saat.kapali)
+                  | Kapalı
+                else
+                  | #{saat.acilis}-#{saat.kapanis}
+>>>>>>> 593a0e602833951d44ca33ce4a591541599f78ab
           .panel.panel-primary
             .panel-heading
               h2.panel-title Neler Var ?

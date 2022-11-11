@@ -41,6 +41,7 @@ const mekanbilgisi = function(req, res){
        "mekanBaslik": "Starbucks",
        "mekanDetay": {
             "ad": "Starbucks",
+<<<<<<< HEAD
             "puan":"4",
             "adres": "Iyaspark AVM",
             "imkanlar": ["Dünya Kahveleri", "Kekler", "Pastalar"],
@@ -48,19 +49,37 @@ const mekanbilgisi = function(req, res){
                 {
                     "gunler": "Pazartesi-Cuma ",
                     "acilis":  "9:00",
+=======
+            "puan":"3",
+            "adres": "Iyaspark AVM",
+            "imkanlar": ["Kahveler", "Tatlılar", "Dünya Kahveleri"],
+            "saatler":[
+                {
+                    "gunler":"Pazartesi-Cuma",
+                    "acilis": "9:00",
+>>>>>>> 593a0e602833951d44ca33ce4a591541599f78ab
                     "kapanis": "23:00",
                     "kapali": false
                 },
                 {
+<<<<<<< HEAD
                     "gunler": "Cumartesi-Pazar",
+=======
+                    "gunler":"Cumartesi-Pazar",
+>>>>>>> 593a0e602833951d44ca33ce4a591541599f78ab
                     "acilis": "10:00",
                     "kapanis": "22:00",
                     "kapali": false
                 }
             ],
             "koordinatlar": {
+<<<<<<< HEAD
                 "enlem": "37.7",
                 "boylam": "30.5"
+=======
+                "enlem": "37.78334",
+                "boylam": "30.54530"
+>>>>>>> 593a0e602833951d44ca33ce4a591541599f78ab
             },
             "yorumlar": [
                 {
