@@ -36,7 +36,6 @@ const anasayfa = function (req, res){
   );
 }
 const mekanbilgisi = function(req, res){
-<<<<<<< HEAD
   res.render('mekanbilgisi', 
   {  "baslik": "Mekan Bilgisi",
      "mekanBaslik": "Starbucks",
@@ -116,8 +115,6 @@ const mekanbilgisi = function(req, res){
                 }
             ]
         } 
->>>>>>> c36dac5cb0661b2590cdaca5078d1df460fbf8e6
-
   });
 }
 const yorumekle = function(req, res){
