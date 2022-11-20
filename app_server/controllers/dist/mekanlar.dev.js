@@ -35,19 +35,11 @@ var mekanbilgisi = function mekanbilgisi(req, res) {
     "mekanBaslik": "Starbucks",
     "mekanDetay": {
       "ad": "Starbucks",
-<<<<<<< HEAD
-      "puan": "4",
-      "adres": "Iyaspark AVM",
-      "imkanlar": ["Dünya Kahveleri", "Kekler", "Pastalar"],
-      "saatler": [{
-        "gunler": "Pazartesi-Cuma ",
-=======
       "puan": "3",
       "adres": "Iyaspark AVM",
       "imkanlar": ["Kahveler", "Tatlılar", "Dünya Kahveleri"],
       "saatler": [{
         "gunler": "Pazartesi-Cuma",
->>>>>>> 593a0e602833951d44ca33ce4a591541599f78ab
         "acilis": "9:00",
         "kapanis": "23:00",
         "kapali": false
@@ -58,13 +50,8 @@ var mekanbilgisi = function mekanbilgisi(req, res) {
         "kapali": false
       }],
       "koordinatlar": {
-<<<<<<< HEAD
         "enlem": "37.7",
         "boylam": "30.5"
-=======
-        "enlem": "37.78334",
-        "boylam": "30.54530"
->>>>>>> 593a0e602833951d44ca33ce4a591541599f78ab
       },
       "yorumlar": [{
         "yorumYapan": "Şevval Tuncay",
