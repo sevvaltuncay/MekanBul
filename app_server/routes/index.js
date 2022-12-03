@@ -3,9 +3,9 @@ var router = express.Router();
 var ctrlmekanlar = require("../controllers/mekanlar");
 var ctrldigeri = require("../controllers/digeri")
 
-router.get('/',ctrlmekanlar.anasayfa);
-router.get('/mekan', ctrlmekanlar.mekanbilgisi);
-router.get('/mekan/yorum/yeni', ctrlmekanlar.yorumekle);
+router.get('/',ctrlmekanlar.anaSayfa);
+router.get('/mekan/:mekanid', ctrlmekanlar.mekanBilgisi);
+router.get('/mekan/yorum/yeni', ctrlmekanlar.yorumEkle);
 router.get('/hakkinda', ctrldigeri.hakkinda);
 
 module.exports = router; 
