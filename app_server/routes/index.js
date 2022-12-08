@@ -5,7 +5,8 @@ var ctrldigeri = require("../controllers/digeri")
 
 router.get('/',ctrlmekanlar.anaSayfa);
 router.get('/mekan/:mekanid', ctrlmekanlar.mekanBilgisi);
-router.get('/mekan/yorum/yeni', ctrlmekanlar.yorumEkle);
+router.get('/mekan/:mekanid/yorum/yeni', ctrlmekanlar.yorumEkle);
+router.post('/mekan/:mekanid/yorum/yeni', ctrlmekanlar.yorumumuEkle);
 router.get('/hakkinda', ctrldigeri.hakkinda);
 
 module.exports = router; 
